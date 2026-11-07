@@ -1,0 +1,702 @@
+[
+  {
+    "input": "哎哟喂我切菜把手给切了，就虎口那个地方，血哗哗往外冒啊，我拿毛巾捂着都透红了，这要不要缝针啊",
+    "type": "开放式",
+    "group": "机械性损伤",
+    "location": "手部",
+    "skin_state": "broken"
+  },
+  {
+    "input": "我下楼梯踩空崴了一下，脚脖子这儿鼓起来一大块，皮倒是没破，就是发紫，一沾地就钻心疼",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "足部",
+    "skin_state": "intact"
+  },
+  {
+    "input": "我妈在小区里摔了一跤，膝盖那儿疼得站不起来，我也不知道磕哪儿了，你们赶紧派个车来吧",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "腿部",
+    "skin_state": "unknown"
+  },
+  {
+    "input": "我脑袋磕台阶棱上了，额头这儿开了个口子，血顺着脸往下流都进眼睛了，我拿纸巾按着呢",
+    "type": "开放式",
+    "group": "机械性损伤",
+    "location": "头部",
+    "skin_state": "broken"
+  },
+  {
+    "input": "我腰撞桌子角上了，就这一块，疼得直不起来，摸了半天也没破皮，就是一按嗷嗷疼",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "躯干",
+    "skin_state": "intact"
+  },
+  {
+    "input": "胳膊让车门夹了一下，现在整条胳膊抬不起来，手指头还有点发麻，说不上来咋回事",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "手臂",
+    "skin_state": "unknown"
+  },
+  {
+    "input": "我小腿让铁皮划了一下，皮都翻起来了，能看见里头红红的肉，一走道就扯得疼",
+    "type": "开放式",
+    "group": "机械性损伤",
+    "location": "腿部",
+    "skin_state": "broken"
+  },
+  {
+    "input": "孩子从床上滚下来了，后脑勺磕地上了，起了个老大的包，没出血，就是一直哭闹，要不要去医院啊",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "头部",
+    "skin_state": "intact"
+  },
+  {
+    "input": "出车祸了，我骑电动车被撞飞出去了，现在浑身哪儿都疼，腰也疼腿也疼，头还晕乎乎的",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "多部位",
+    "skin_state": "unknown"
+  },
+  {
+    "input": "脖子这儿让铁丝刮了一道，有那么一条口子，不太深但是渗血，一低头就揪着疼",
+    "type": "开放式",
+    "group": "机械性损伤",
+    "location": "颈部",
+    "skin_state": "broken"
+  },
+  {
+    "input": "手背让锤子砸了一下，肿得跟发面馒头一样，青紫一大片，没破皮，手指头弯不了",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "手部",
+    "skin_state": "intact"
+  },
+  {
+    "input": "肚子这块被人用膝盖顶了一下，现在闷闷的疼，还有点恶心，反正就是不舒服",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "躯干",
+    "skin_state": "unknown"
+  },
+  {
+    "input": "我胳膊肘摔地上了，地上全是碎石子，蹭掉一大块皮，血糊糊的，沙土都粘上去了",
+    "type": "开放式",
+    "group": "机械性损伤",
+    "location": "手臂",
+    "skin_state": "broken"
+  },
+  {
+    "input": "大腿撞门框上了，撞出一个硬包，皮没事儿，没破也没出血，就是走路一扯一扯地疼",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "腿部",
+    "skin_state": "intact"
+  },
+  {
+    "input": "我骑车子撞树上了，脑门这儿磕破一大块，血往鼻子上流，黏糊糊的，擦都擦不干净",
+    "type": "开放式",
+    "group": "机械性损伤",
+    "location": "头部",
+    "skin_state": "broken"
+  },
+  {
+    "input": "我爸喝多了摔在马路牙子上，后脑勺破了个口子，我按着还有血往外渗，他还不让我管",
+    "type": "开放式",
+    "group": "机械性损伤",
+    "location": "头部",
+    "skin_state": "broken"
+  },
+  {
+    "input": "小孩在沙发上蹦，一下摔下来磕到茶几角，耳朵上面撕开一道，血把小衣服都染了",
+    "type": "开放式",
+    "group": "机械性损伤",
+    "location": "头部",
+    "skin_state": "broken"
+  },
+  {
+    "input": "我让人拿酒瓶子抡了一下脑袋，头顶这儿裂开了，头发全黏一块了，一摸湿乎乎的",
+    "type": "开放式",
+    "group": "机械性损伤",
+    "location": "头部",
+    "skin_state": "broken"
+  },
+  {
+    "input": "我钻柜子底下找东西，起来忘了低头，头顶咚一下撞木板上，摸着有个包，没破，就是晕",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "头部",
+    "skin_state": "intact"
+  },
+  {
+    "input": "孩子跑着撞玻璃门上了，额头鼓起个青包，皮没破，哭了一阵，现在有点想睡觉",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "头部",
+    "skin_state": "intact"
+  },
+  {
+    "input": "我被我对象推了一把，脑袋磕墙上了，起了个疙瘩，没出血，就是耳朵里嗡嗡的",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "头部",
+    "skin_state": "intact"
+  },
+  {
+    "input": "我摔的时候脸朝下，嘴唇和鼻子磕地上了，嘴肿得老高，皮没破，就是一阵一阵发麻",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "头部",
+    "skin_state": "intact"
+  },
+  {
+    "input": "我头晕得厉害，昨晚上厕所滑了一跤，脑袋磕哪儿了我也记不清了，现在就想躺着",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "头部",
+    "skin_state": "unknown"
+  },
+  {
+    "input": "我家老爷子在院子里摔了，头磕地上了，我回家才看见人躺那儿，问他哪儿疼他也不说话",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "头部",
+    "skin_state": "unknown"
+  },
+  {
+    "input": "小孩从滑梯上翻下来了，说是头先着地的，现在蔫蔫的，我问哪儿疼他也说不清",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "头部",
+    "skin_state": "unknown"
+  },
+  {
+    "input": "公交车一个急刹车，我脑袋往前一冲撞到扶手上了，现在后脑勺一阵一阵发胀",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "头部",
+    "skin_state": "unknown"
+  },
+  {
+    "input": "我搬东西的时候脖子让铁皮柜的角划了，侧面拉开一道，衬衣领子都染红了",
+    "type": "开放式",
+    "group": "机械性损伤",
+    "location": "颈部",
+    "skin_state": "broken"
+  },
+  {
+    "input": "玻璃门碎了，一块碴子飞过来划到脖子，有道口子，不算深，但是一动就渗血",
+    "type": "开放式",
+    "group": "机械性损伤",
+    "location": "颈部",
+    "skin_state": "broken"
+  },
+  {
+    "input": "我抬头够东西，脖子猛地一扭，现在转都转不动，皮上也没伤，就是僵得慌",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "颈部",
+    "skin_state": "intact"
+  },
+  {
+    "input": "我被人从后面勒了一下脖子，现在喘气费劲，说话也哑，喉咙这儿一咽就疼",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "颈部",
+    "skin_state": "unknown"
+  },
+  {
+    "input": "我摔下来的时候脖子先撞到床沿，现在脖子一点不能动，肩膀也麻，你们别让我抬头啊",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "颈部",
+    "skin_state": "unknown"
+  },
+  {
+    "input": "我摔倒在工地的钢筋上，腰侧扎了个洞，血一股一股往外冒，衣服都透了",
+    "type": "开放式",
+    "group": "机械性损伤",
+    "location": "躯干",
+    "skin_state": "broken"
+  },
+  {
+    "input": "我跟我哥吵架，他拿改锥划了我肚子一下，划开一道，不算深但是一直流血",
+    "type": "开放式",
+    "group": "机械性损伤",
+    "location": "躯干",
+    "skin_state": "broken"
+  },
+  {
+    "input": "我从梯子上滑下来，肋巴骨那儿蹭到铁架子角上，撕了条口子，喘气都疼",
+    "type": "开放式",
+    "group": "机械性损伤",
+    "location": "躯干",
+    "skin_state": "broken"
+  },
+  {
+    "input": "我抱着孩子下楼梯摔了，后背磕在花坛边上，皮蹭掉一大片，沙土全糊在伤口上",
+    "type": "开放式",
+    "group": "机械性损伤",
+    "location": "躯干",
+    "skin_state": "broken"
+  },
+  {
+    "input": "我跟人打球被人一肘子顶到胸口，现在喘气有点闷，摸着没破，就是一片红",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "躯干",
+    "skin_state": "intact"
+  },
+  {
+    "input": "我搬冰箱的时候闪了腰，腰这儿跟针扎一样，皮上啥也没有，不红也不肿",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "躯干",
+    "skin_state": "intact"
+  },
+  {
+    "input": "我被人踹了一脚肚子，现在一按就疼，皮肤上没破，就是有点发青",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "躯干",
+    "skin_state": "intact"
+  },
+  {
+    "input": "我从三轮车上摔下来，侧肋撞到车把上，疼得不敢大口喘气，皮倒是没破",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "躯干",
+    "skin_state": "intact"
+  },
+  {
+    "input": "我干活的时候胸口让木头撞了一下，现在心慌得厉害，有点儿上不来气",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "躯干",
+    "skin_state": "unknown"
+  },
+  {
+    "input": "我老婆肚子疼得蜷着，说是昨儿搬东西抻了一下，现在按哪儿都不让按",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "躯干",
+    "skin_state": "unknown"
+  },
+  {
+    "input": "货架倒下来压了我腰一下，人还能动，就是腰这块发木发酸，站也站不直",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "躯干",
+    "skin_state": "unknown"
+  },
+  {
+    "input": "我被人群挤倒了，后背不知道被谁踩了一脚，现在喘气别扭，说不上来哪儿疼",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "躯干",
+    "skin_state": "unknown"
+  },
+  {
+    "input": "我摔了一跤，肋骨这块疼，笑一下都疼，也不知道是不是给摔断了",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "躯干",
+    "skin_state": "unknown"
+  },
+  {
+    "input": "小孩从高低床上掉下来，肚子磕到床梯上，现在说肚子疼，刚才还吐了一回",
+    "type": "闭合式",
+    "group":"机械性损伤",
+    "location": "躯干",
+    "skin_state": "unknown"
+  },
+  {
+    "input": "我干活让角磨机蹭到胳膊了，拉开一道，肉都翻着，我拿毛巾缠上还是往外渗",
+    "type": "开放式",
+    "group": "机械性损伤",
+    "location": "手臂",
+    "skin_state": "broken"
+  },
+  {
+    "input": "我骑摩托摔了，胳膊在地上搓出去老远，整条小臂的皮都磨没了，红一片白一片的",
+    "type": "开放式",
+    "group": "机械性损伤",
+    "location": "手臂",
+    "skin_state": "broken"
+  },
+  {
+    "input": "我开窗的时候玻璃碎了，手臂上划了个大口子，血顺着手腕往下滴，滴了一地",
+    "type": "开放式",
+    "group": "机械性损伤",
+    "location": "手臂",
+    "skin_state": "broken"
+  },
+  {
+    "input": "我搬玻璃板手一滑，玻璃落下来在胳膊上切了一道，能看见里头的筋，腿都软了",
+    "type": "开放式",
+    "group": "机械性损伤",
+    "location": "手臂",
+    "skin_state": "broken"
+  },
+  {
+    "input": "我打球被人撞了一下胳膊，现在肘这儿肿了，皮没破，弯都弯不了",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "手臂",
+    "skin_state": "intact"
+  },
+  {
+    "input": "铁门反弹回来夹了我上臂一下，一大片青紫，摸着硬硬的，皮肤倒没破",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "手臂",
+    "skin_state": "intact"
+  },
+  {
+    "input": "我摔倒用手撑了一下地，小臂这块一按就疼，表面看着没事，也没肿多少",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "手臂",
+    "skin_state": "intact"
+  },
+  {
+    "input": "我抬东西的时候胳膊咔一声，现在整只手都抬不起来了，垂着晃荡，吓得我不敢动",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "手臂",
+    "skin_state": "unknown"
+  },
+  {
+    "input": "我胳膊让人拿棍子打了一下，现在又麻又胀，摸上去还有点发热",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "手臂",
+    "skin_state": "unknown"
+  },
+  {
+    "input": "我小孩胳膊让跑步机带子卷进去了，现在一直哭，胳膊不肯动，我也不敢碰",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "手臂",
+    "skin_state": "unknown"
+  },
+  {
+    "input": "我开罐头把手指头划了，食指这儿一道深口子，血一直滴，创可贴根本粘不住",
+    "type": "开放式",
+    "group": "机械性损伤",
+    "location": "手部",
+    "skin_state": "broken"
+  },
+  {
+    "input": "我修车的时候让扳手夹了一下，指甲盖那块掀起来了，底下全是血",
+    "type": "开放式",
+    "group": "机械性损伤",
+    "location": "手部",
+    "skin_state": "broken"
+  },
+  {
+    "input": "我洗碗打碎了个碗，捡碎片的时候割到手掌，一条长长的口子，现在攥不住拳头",
+    "type": "开放式",
+    "group": "机械性损伤",
+    "location": "手部",
+    "skin_state": "broken"
+  },
+  {
+    "input": "我让机器压到手指了，中指前面那截压烂了，血糊糊的，骨头都露出来了",
+    "type": "开放式",
+    "group": "机械性损伤",
+    "location": "手部",
+    "skin_state": "broken"
+  },
+  {
+    "input": "我削苹果削到手，刀口在拇指根那儿，翻着肉，我拿皮筋勒住手腕了，管用吗",
+    "type": "开放式",
+    "group": "机械性损伤",
+    "location": "手部",
+    "skin_state": "broken"
+  },
+  {
+    "input": "我关车门夹了手指头，现在肿得跟香肠一样，指甲下面发紫，皮倒是没破",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "手部",
+    "skin_state": "intact"
+  },
+  {
+    "input": "我搬砖的时候砸到手掌，青了一大块，手指能动能弯，就是没破皮",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "手部",
+    "skin_state": "intact"
+  },
+  {
+    "input": "我打球戳到手指，无名指歪了一点，肿起来了，表面没伤口，就是不敢碰",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "手部",
+    "skin_state": "intact"
+  },
+  {
+    "input": "我推门的时候手背撞到门把手上，鼓了个小包，没出血，按着疼",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "手部",
+    "skin_state": "intact"
+  },
+  {
+    "input": "我手让门挤了一下，现在指头肿着，弯不了，我也说不上来具体伤哪儿了",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "手部",
+    "skin_state": "unknown"
+  },
+  {
+    "input": "我干活的时候手突然一麻，现在握不住东西，手指头一点劲儿都没有",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "手部",
+    "skin_state": "unknown"
+  },
+  {
+    "input": "我手背被东西砸了一下，现在鼓着，摸着有点热，我拿冰袋敷着呢",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "手部",
+    "skin_state": "unknown"
+  },
+  {
+    "input": "我骑电动车摔了，膝盖蹭掉一大块皮，血珠子一片一片的，裤腿都粘上了",
+    "type": "开放式",
+    "group": "机械性损伤",
+    "location": "腿部",
+    "skin_state": "broken"
+  },
+  {
+    "input": "我在厨房让菜刀掉下来砍到小腿，口子挺深，肉往外翻着，血根本止不住",
+    "type": "开放式",
+    "group": "机械性损伤",
+    "location": "腿部",
+    "skin_state": "broken"
+  },
+  {
+    "input": "我踢球的时候跟人撞上，小腿前面磕在鞋钉上，扎出两个小洞，一直冒血",
+    "type": "开放式",
+    "group": "机械性损伤",
+    "location": "腿部",
+    "skin_state": "broken"
+  },
+  {
+    "input": "我下地干活让镰刀拉了腿，拉了一道挺长的，我自己拿布条扎上了，不知道行不行",
+    "type": "开放式",
+    "group": "机械性损伤",
+    "location": "腿部",
+    "skin_state": "broken"
+  },
+  {
+    "input": "铁皮柜倒下来，边角在我大腿上划开一道，裤子都划破了，血顺着腿流到鞋里",
+    "type": "开放式",
+    "group": "机械性损伤",
+    "location": "腿部",
+    "skin_state": "broken"
+  },
+  {
+    "input": "我摔倒的时候膝盖磕在碎玻璃上，扎进去好几块，血糊了一片，我都不敢拔",
+    "type": "开放式",
+    "group": "机械性损伤",
+    "location": "腿部",
+    "skin_state": "broken"
+  },
+  {
+    "input": "我在浴室滑了一下，膝盖着地，现在肿得跟馒头一样，皮没破，就是紫了",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "腿部",
+    "skin_state": "intact"
+  },
+  {
+    "input": "我踢球被人从后面铲了小腿，疼得站不起来，摸着没伤口，就是鼓了个包",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "腿部",
+    "skin_state": "intact"
+  },
+  {
+    "input": "我搬东西的时候大腿撞到桌角，青了一大片，皮倒好好的，走路一瘸一拐",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "腿部",
+    "skin_state": "intact"
+  },
+  {
+    "input": "我从自行车上摔下来，膝盖内侧扭了一下，现在弯不了，表面看不出伤来",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "腿部",
+    "skin_state": "intact"
+  },
+  {
+    "input": "我蹲久了起身，膝盖上面撞到柜门，磕了个包，没破，按着酸疼",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "腿部",
+    "skin_state": "intact"
+  },
+  {
+    "input": "我下楼的时候腿一软跪地上了，膝盖当时就麻了，现在肿着，皮没破",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "腿部",
+    "skin_state": "intact"
+  },
+  {
+    "input": "我腿突然使不上劲儿，摔地上了，现在膝盖疼得厉害，站不起来",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "腿部",
+    "skin_state": "unknown"
+  },
+  {
+    "input": "我爸在工地让钢筋绊倒，腿压在底下了，现在动不了，一直喊疼",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "腿部",
+    "skin_state": "unknown"
+  },
+  {
+    "input": "我被人撞了一下腿，当时没觉得，现在越走越疼，小腿肚子发胀",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "腿部",
+    "skin_state": "unknown"
+  },
+  {
+    "input": "我从车上跳下来，落地的时候腿一别，现在整条腿发软，膝盖里面咯噔咯噔的",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "腿部",
+    "skin_state": "unknown"
+  },
+  {
+    "input": "我摔了一跤，腿弯那儿肿起来，弯也弯不了，我也不知道磕到啥了",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "腿部",
+    "skin_state": "unknown"
+  },
+  {
+    "input": "我光脚踩到碎啤酒瓶上，脚底板扎了个口子，血把地砖都染了",
+    "type": "开放式",
+    "group": "机械性损伤",
+    "location": "足部",
+    "skin_state": "broken"
+  },
+  {
+    "input": "我穿拖鞋让电动车轮子蹭了脚后跟，皮整块撕下来，露着红肉，疼得直抽气",
+    "type": "开放式",
+    "group": "机械性损伤",
+    "location": "足部",
+    "skin_state": "broken"
+  },
+  {
+    "input": "我下楼踩到钉子，钉子扎穿鞋底进了脚心，拔出来血流不止，鞋里全是血",
+    "type": "开放式",
+    "group": "机械性损伤",
+    "location": "足部",
+    "skin_state": "broken"
+  },
+  {
+    "input": "我崴脚了，脚背肿得老高，皮没破就是青一块紫一块，一落地就疼",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "足部",
+    "skin_state": "intact"
+  },
+  {
+    "input": "我让人踩了一脚脚趾，现在大脚趾肿了，指甲发黑，皮没破",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "足部",
+    "skin_state": "intact"
+  },
+  {
+    "input": "我从台阶上跳下来，脚跟先着地，现在脚跟疼得不敢踩，看着也没破",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "足部",
+    "skin_state": "intact"
+  },
+  {
+    "input": "我踢到床腿上，小脚趾撞得发紫，没出血，就是一碰就嗷嗷叫",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "足部",
+    "skin_state": "intact"
+  },
+  {
+    "input": "我脚脖子扭了，现在走不了路，一踩地就疼，也不知道伤到骨头没有",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "足部",
+    "skin_state": "unknown"
+  },
+  {
+    "input": "我脚让东西砸了，现在鞋都脱不下来，肿得厉害，一碰就受不了",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "足部",
+    "skin_state": "unknown"
+  },
+  {
+    "input": "我脚底下疼了一个礼拜，今天走路突然一软就坐地上了，现在站不起来",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "足部",
+    "skin_state": "unknown"
+  },
+  {
+    "input": "我跑步的时候脚踝一别，听见咔一声，现在整个脚都胀，鞋都觉得紧了",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "足部",
+    "skin_state": "unknown"
+  },
+  {
+    "input": "我从二楼摔下来了，胳膊和腿上都是口子，血把衣服都浸透了，快来救我",
+    "type": "开放式",
+    "group": "机械性损伤",
+    "location": "多部位",
+    "skin_state": "broken"
+  },
+  {
+    "input": "我骑车摔了，肩膀和胯都撞青了，皮没破，就是浑身疼得不想动",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "多部位",
+    "skin_state": "intact"
+  },
+  {
+    "input": "我让人打了一顿，脸上身上都是青的，摸着没破，就是哪儿都疼",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "多部位",
+    "skin_state": "intact"
+  },
+  {
+    "input": "我从梯子上摔下来了，现在半边身子都疼，动一下就叫唤，也不知道摔坏哪儿了",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "多部位",
+    "skin_state": "unknown"
+  },
+  {
+    "input": "我被车带了一下，摔出去好远，现在头也晕，腿也疼，胳膊抬不起来，你们快点来",
+    "type": "闭合式",
+    "group": "机械性损伤",
+    "location": "多部位",
+    "skin_state": "unknown"
+  }
+]

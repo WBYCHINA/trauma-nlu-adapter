@@ -1,0 +1,17 @@
+{{ fsm_prompt }}
+
+{% if injury_guide %}
+
+根据你的描述，我判断伤情如下：
+【{{ injury_guide.injury_type }}】- 【{{ injury_guide.body_location }}】- 【{{ injury_guide.severity }}】
+
+具体处理步骤：
+{% for i, step in enumerate(injury_guide.steps, 1) %}
+{{ i }}. {{ step }}
+{% endfor %}
+
+重要提示：
+{% for precaution in injury_guide.precautions %}
+- {{ precaution }}
+{% endfor %}
+{% endif %}

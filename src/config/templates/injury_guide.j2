@@ -1,0 +1,16 @@
+你遇到的是【{{ injury_type }}】，位置在【{{ body_location }}】，严重程度为【{{ severity }}】。
+
+急救步骤：
+{% for i, step in enumerate(steps, 1) %}
+{{ i }}. {{ step }}
+{% endfor %}
+
+注意事项：
+{% for precaution in precautions %}
+- {{ precaution }}
+{% endfor %}
+
+绝对不要做的事：
+{% for contra in contraindications %}
+- {{ contra }}
+{% endfor %}
