@@ -1,0 +1,34 @@
+[
+  {
+    "input": "我从梯子上摔下来胳膊疼得厉害动不了",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "机械性损伤",
+    "detail": "开放性骨折"
+  },
+  {
+    "input": "切菜的时候菜刀把手划了个口子直流血",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "机械性损伤",
+    "detail": "切割伤"
+  },
+  {
+    "input": "下楼梯踩空把脚崴了肿了但是没破",
+    "type": "闭合式",
+    "should_ask": false
+  },
+  {
+    "input": "卧槽被开水烫了一下",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "热力损伤"
+  },
+  {
+    "input": "跑步的时候腿抽筋了没摔着",
+    "type": "闭合式",
+    "should_ask": false
+  }
+]

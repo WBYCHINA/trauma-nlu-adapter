@@ -1,0 +1,6 @@
+﻿去重底库：3770 条
+切割伤: 保留 11/15  剔除 {'leak': 0, 'nosignal': 4, 'dup': 0, 'label': 20, 'len': 0}
+刺伤: 保留 12/15  剔除 {'leak': 0, 'nosignal': 3, 'dup': 0, 'label': 22, 'len': 5}
+挫裂伤: 保留 15/15  剔除 {'leak': 0, 'nosignal': 17, 'dup': 0, 'label': 0, 'len': 6}
+撕裂伤: 保留 12/15  剔除 {'leak': 0, 'nosignal': 20, 'dup': 0, 'label': 21, 'len': 1}
+撕脱伤: 保留 15/15  剔除 {'leak': 0, 'nosignal': 13, 'dup': 0, 'label': 17, 'len': 11}

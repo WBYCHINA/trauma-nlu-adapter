@@ -1,0 +1,1697 @@
+[
+  {
+    "input": "大腿拉伤了皮没破就是疼",
+    "type": "闭合式",
+    "should_ask": false
+  },
+  {
+    "input": "脚背被石块砸肿了",
+    "type": "闭合式",
+    "should_ask": true,
+    "answer": "没有"
+  },
+  {
+    "input": "我操肩膀撞门框肿了皮完好哇",
+    "type": "闭合式",
+    "should_ask": false
+  },
+  {
+    "input": "被海蜇蛰了胳膊哦",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "生物毒素-感染"
+  },
+  {
+    "input": "妈的腿被车门夹了肿得发紫快叫救护车",
+    "type": "闭合式",
+    "should_ask": true,
+    "answer": "没有"
+  },
+  {
+    "input": "卧槽膝盖跪地磕出包了皮没破哦",
+    "type": "闭合式",
+    "should_ask": false
+  },
+  {
+    "input": "手指沾了点硝酸",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "化学腐蚀"
+  },
+  {
+    "input": "高压电打到胳膊皮焦了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "电能损伤"
+  },
+  {
+    "input": "熨斗烫胳膊皮破了流水",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "热力损伤"
+  },
+  {
+    "input": "在太阳下暴晒了腿发红",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "辐射损伤"
+  },
+  {
+    "input": "我靠被电击了胸口",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "电能损伤"
+  },
+  {
+    "input": "糖尿病脚趾干黑掉了一块",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "病理自发性破溃"
+  },
+  {
+    "input": "手指被菜刀切了血直流",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "机械性损伤"
+  },
+  {
+    "input": "操石灰把腿烧得皮都烂了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "化学腐蚀"
+  },
+  {
+    "input": "手蹭到摩托车排气管",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "热力损伤"
+  },
+  {
+    "input": "糖尿病脚掌烂了一个洞",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "病理自发性破溃"
+  },
+  {
+    "input": "被铁管打胳膊淤青皮没破",
+    "type": "闭合式",
+    "should_ask": false
+  },
+  {
+    "input": "被蜂蛰了胳膊",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "生物毒素-感染"
+  },
+  {
+    "input": "硝酸把手烧焦了皮掉了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "化学腐蚀"
+  },
+  {
+    "input": "手上沾了工业碱粉啊",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "化学腐蚀"
+  },
+  {
+    "input": "火苗燎了胳膊",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "热力损伤"
+  },
+  {
+    "input": "被棒球棍砸头起了个包",
+    "type": "闭合式",
+    "should_ask": true,
+    "answer": "没有"
+  },
+  {
+    "input": "炒菜油溅手上了呀",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "热力损伤"
+  },
+  {
+    "input": "糖尿病脚趾头变色了",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "病理自发性破溃"
+  },
+  {
+    "input": "脚底老茧下面烂了在流脓",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "病理自发性破溃"
+  },
+  {
+    "input": "我蒸汽把脸熏破皮了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "热力损伤"
+  },
+  {
+    "input": "手指沾了草酸溶液快打120",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "化学腐蚀"
+  },
+  {
+    "input": "屁股压疮破皮了流水",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "病理自发性破溃"
+  },
+  {
+    "input": "膝盖撞台阶鼓了个包",
+    "type": "闭合式",
+    "should_ask": true,
+    "answer": "没有"
+  },
+  {
+    "input": "被锤子砸手指肿得发黑",
+    "type": "闭合式",
+    "should_ask": true,
+    "answer": "没有"
+  },
+  {
+    "input": "手指沾了化学药水",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "化学腐蚀"
+  },
+  {
+    "input": "哎哟脚趾踢石头肿了皮完好",
+    "type": "闭合式",
+    "should_ask": false
+  },
+  {
+    "input": "放疗部位发热发红",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "辐射损伤"
+  },
+  {
+    "input": "硫酸把手烧烂了皮都焦了啊",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "化学腐蚀"
+  },
+  {
+    "input": "腿摔弯了皮没破骨头没出来",
+    "type": "闭合式",
+    "should_ask": false
+  },
+  {
+    "input": "碱液溅腿上皮溃烂了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "化学腐蚀"
+  },
+  {
+    "input": "工业碱把手皮烧掉了哦",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "化学腐蚀"
+  },
+  {
+    "input": "我高压电打到胳膊了",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "电能损伤"
+  },
+  {
+    "input": "哎哟后背压疮部位发热发红快打120",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "病理自发性破溃"
+  },
+  {
+    "input": "碱水溅胳膊上皮溃烂了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "化学腐蚀"
+  },
+  {
+    "input": "卧槽我脚脖子扭肿了",
+    "type": "闭合式",
+    "should_ask": true,
+    "answer": "没有"
+  },
+  {
+    "input": "电线电了脚皮烧穿了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "电能损伤"
+  },
+  {
+    "input": "脚踩到钉子了",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "机械性损伤"
+  },
+  {
+    "input": "晒了半天太阳脸通红快叫救护车",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "辐射损伤"
+  },
+  {
+    "input": "抽屉夹手指肿了皮没破哇",
+    "type": "闭合式",
+    "should_ask": false
+  },
+  {
+    "input": "脚上脓包破了流脓了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "生物毒素-感染"
+  },
+  {
+    "input": "脚踝崴了一碰就疼",
+    "type": "闭合式",
+    "should_ask": true,
+    "answer": "没有"
+  },
+  {
+    "input": "手指感染破皮流脓了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "生物毒素-感染"
+  },
+  {
+    "input": "铁丝把胳膊豁开了一个大口子",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "机械性损伤"
+  },
+  {
+    "input": "我的妈呀手被冲床夹了一下",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "机械性损伤"
+  },
+  {
+    "input": "我操手碰漏电的铁壳了吧",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "电能损伤"
+  },
+  {
+    "input": "熨斗蹭了胳膊一下",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "热力损伤"
+  },
+  {
+    "input": "我的妈呀暴晒后腿皮都晒烂了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "辐射损伤"
+  },
+  {
+    "input": "被铁丝挂了胳膊",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "机械性损伤"
+  },
+  {
+    "input": "手上脓肿破了流黄水",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "生物毒素-感染"
+  },
+  {
+    "input": "盐酸把手烧穿了皮焦了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "化学腐蚀"
+  },
+  {
+    "input": "被菜刀砍了一下手",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "机械性损伤"
+  },
+  {
+    "input": "鞭炮炸到手指了",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "机械性损伤"
+  },
+  {
+    "input": "脚泡开水里皮都烫脱了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "热力损伤"
+  },
+  {
+    "input": "我放疗部位皮肤发黑了哎哟",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "辐射损伤"
+  },
+  {
+    "input": "大腿后面拉伤了迈不开腿",
+    "type": "闭合式",
+    "should_ask": true,
+    "answer": "没有"
+  },
+  {
+    "input": "我被插座电了手",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "电能损伤"
+  },
+  {
+    "input": "肩膀掉下来了胳膊耷拉着",
+    "type": "闭合式",
+    "should_ask": true,
+    "answer": "没有"
+  },
+  {
+    "input": "冲床把手指夹掉了皮肉翻开",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "机械性损伤"
+  },
+  {
+    "input": "胳膊碰了化学试剂",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "化学腐蚀"
+  },
+  {
+    "input": "车间酸雾熏了脸",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "化学腐蚀"
+  },
+  {
+    "input": "我操手腕扭肿了皮完好无损",
+    "type": "闭合式",
+    "should_ask": false
+  },
+  {
+    "input": "手伸进煮面的锅里了",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "热力损伤"
+  },
+  {
+    "input": "疼死我了被水母蛰了腿快叫救护车",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "生物毒素-感染"
+  },
+  {
+    "input": "被电棍碰了一下胳膊",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "电能损伤"
+  },
+  {
+    "input": "海胆扎了脚流血了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "生物毒素-感染"
+  },
+  {
+    "input": "猴子咬了手指破皮了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "机械性损伤"
+  },
+  {
+    "input": "手上溅了点盐酸",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "化学腐蚀"
+  },
+  {
+    "input": "我靠手指碰到电闸了呢",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "电能损伤"
+  },
+  {
+    "input": "胳膊被机器夹了淤青",
+    "type": "闭合式",
+    "should_ask": true,
+    "answer": "没有"
+  },
+  {
+    "input": "从楼梯滚下来青紫了皮都没破",
+    "type": "闭合式",
+    "should_ask": false
+  },
+  {
+    "input": "腿摔弯了一截站不起来",
+    "type": "闭合式",
+    "should_ask": true,
+    "answer": "没有"
+  },
+  {
+    "input": "脸撞门板肿了皮完好",
+    "type": "闭合式",
+    "should_ask": false
+  },
+  {
+    "input": "电焊弧光把脸烧破皮了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "电能损伤"
+  },
+  {
+    "input": "锤子砸手指发黑了皮没破",
+    "type": "闭合式",
+    "should_ask": false
+  },
+  {
+    "input": "我长期坐轮椅屁股压疮破了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "病理自发性破溃"
+  },
+  {
+    "input": "我靠脸被猫抓了一下",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "机械性损伤"
+  },
+  {
+    "input": "石头砸脚背肿了皮没破",
+    "type": "闭合式",
+    "should_ask": false
+  },
+  {
+    "input": "我的天长时间晒太阳胳膊脱皮快打120",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "辐射损伤"
+  },
+  {
+    "input": "糖尿病脚趾头越来越黑",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "病理自发性破溃"
+  },
+  {
+    "input": "被电焊弧光闪了脸",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "电能损伤"
+  },
+  {
+    "input": "糖尿病脚掌皮肤发黑变硬",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "病理自发性破溃"
+  },
+  {
+    "input": "放疗部位皮肤溃烂流水了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "辐射损伤"
+  },
+  {
+    "input": "生石灰撒腿上了",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "化学腐蚀"
+  },
+  {
+    "input": "腿上脓包破了在流脓快叫救护车",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "生物毒素-感染"
+  },
+  {
+    "input": "做完放疗那片皮肤烂开了一直不收口",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "辐射损伤"
+  },
+  {
+    "input": "我碱水溅我胳膊上了",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "化学腐蚀"
+  },
+  {
+    "input": "放疗后背上的皮发红",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "辐射损伤"
+  },
+  {
+    "input": "碱液溅到小腿了",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "化学腐蚀"
+  },
+  {
+    "input": "我手腕撑地摔肿了皮没破快打120",
+    "type": "闭合式",
+    "should_ask": false
+  },
+  {
+    "input": "胳膊摔了一下弯了动不了",
+    "type": "闭合式",
+    "should_ask": true,
+    "answer": "没有"
+  },
+  {
+    "input": "紫外线灯把手照破皮了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "辐射损伤"
+  },
+  {
+    "input": "屁股上压出红斑了",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "病理自发性破溃"
+  },
+  {
+    "input": "我操我从梯子上滑下来腰闪了快打120",
+    "type": "闭合式",
+    "should_ask": true,
+    "answer": "没有"
+  },
+  {
+    "input": "胳膊被铁管打了淤青",
+    "type": "闭合式",
+    "should_ask": true,
+    "answer": "没有"
+  },
+  {
+    "input": "妈呀被紫外线灯照了手哇",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "辐射损伤"
+  },
+  {
+    "input": "卧床骶尾部皮肤发紫",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "病理自发性破溃"
+  },
+  {
+    "input": "褥疮破了在流脓嘶",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "病理自发性破溃"
+  },
+  {
+    "input": "鞭炮炸到手指碎片嵌进去流血了快来人",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "机械性损伤"
+  },
+  {
+    "input": "手碰电线烧出伤口了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "电能损伤"
+  },
+  {
+    "input": "被狗咬了小腿",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "机械性损伤"
+  },
+  {
+    "input": "腿被砖头砸了青了一大片",
+    "type": "闭合式",
+    "should_ask": true,
+    "answer": "没有"
+  },
+  {
+    "input": "晒了一天太阳皮都烧烂了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "辐射损伤"
+  },
+  {
+    "input": "放疗后胸口皮肤烂穿了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "辐射损伤"
+  },
+  {
+    "input": "疼死我了崴脚肿得跟萝卜一样没破皮",
+    "type": "闭合式",
+    "should_ask": false
+  },
+  {
+    "input": "后背上压出了水泡",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "病理自发性破溃"
+  },
+  {
+    "input": "我脚踩钉子扎穿了在流血哎",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "机械性损伤"
+  },
+  {
+    "input": "哎哟脚底老茧下面发黑",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "病理自发性破溃"
+  },
+  {
+    "input": "被蚂蟥咬了",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "生物毒素-感染"
+  },
+  {
+    "input": "我操糖尿病脚趾头烂掉了快来人",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "病理自发性破溃"
+  },
+  {
+    "input": "从楼梯滚下来腿弯了",
+    "type": "闭合式",
+    "should_ask": true,
+    "answer": "没有"
+  },
+  {
+    "input": "猫把脸抓破了出血了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "机械性损伤"
+  },
+  {
+    "input": "蚂蟥咬了腿破皮流血",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "生物毒素-感染"
+  },
+  {
+    "input": "后背压疮烂了流脓血",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "病理自发性破溃"
+  },
+  {
+    "input": "被狗咬了腿破皮出血了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "机械性损伤"
+  },
+  {
+    "input": "触电了手指发黑快叫救护车",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "电能损伤"
+  },
+  {
+    "input": "脚后跟裂开了在流血哇",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "病理自发性破溃"
+  },
+  {
+    "input": "我操钢筋头把腿戳破了在流血",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "机械性损伤"
+  },
+  {
+    "input": "放疗后脖子皮肤红了",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "辐射损伤"
+  },
+  {
+    "input": "热水袋焐腿焐了一晚上",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "热力损伤"
+  },
+  {
+    "input": "脚被铁皮划了一下",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "机械性损伤"
+  },
+  {
+    "input": "踩到玻璃碴子了",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "机械性损伤"
+  },
+  {
+    "input": "被碎玻璃扎了脚底",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "机械性损伤"
+  },
+  {
+    "input": "后腰被棍子抡了动不了",
+    "type": "闭合式",
+    "should_ask": true,
+    "answer": "没有"
+  },
+  {
+    "input": "糖尿病脚趾发黑了",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "病理自发性破溃"
+  },
+  {
+    "input": "妈的氢氟酸溅到胳膊了",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "化学腐蚀"
+  },
+  {
+    "input": "从梯子上摔下来腿弯了",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "机械性损伤"
+  },
+  {
+    "input": "踩到玻璃碴脚底扎穿了流血",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "机械性损伤"
+  },
+  {
+    "input": "放疗部位皮烂了都露肉了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "辐射损伤"
+  },
+  {
+    "input": "被砖头砸腿淤青了皮没破",
+    "type": "闭合式",
+    "should_ask": false
+  },
+  {
+    "input": "长期坐轮椅屁股皮肤发红",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "病理自发性破溃"
+  },
+  {
+    "input": "被电打手指头烧焦了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "电能损伤"
+  },
+  {
+    "input": "脚趾踢石头肿了",
+    "type": "闭合式",
+    "should_ask": true,
+    "answer": "没有"
+  },
+  {
+    "input": "手摸了刚焊好的铁",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "热力损伤"
+  },
+  {
+    "input": "暖水袋烫腿皮破了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "热力损伤"
+  },
+  {
+    "input": "漏电机器把手烧出洞了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "电能损伤"
+  },
+  {
+    "input": "刚烧开的水烫了手",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "热力损伤"
+  },
+  {
+    "input": "开水烫了手起泡破了皮掉了一层",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "热力损伤"
+  },
+  {
+    "input": "脖子扭了动不了",
+    "type": "闭合式",
+    "should_ask": true,
+    "answer": "没有"
+  },
+  {
+    "input": "我火烧胳膊皮都烧烂了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "热力损伤"
+  },
+  {
+    "input": "手指被抽屉夹了肿得厉害",
+    "type": "闭合式",
+    "should_ask": true,
+    "answer": "没有"
+  },
+  {
+    "input": "草酸把手指烧烂了快叫救护车",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "化学腐蚀"
+  },
+  {
+    "input": "放疗后胸口红了一片",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "辐射损伤"
+  },
+  {
+    "input": "老天爷被海胆扎了脚",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "生物毒素-感染"
+  },
+  {
+    "input": "放疗后肩膀皮肤破溃了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "辐射损伤"
+  },
+  {
+    "input": "卧槽脚上长了个脓包",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "生物毒素-感染"
+  },
+  {
+    "input": "棍子抡后腰皮没破动不了",
+    "type": "闭合式",
+    "should_ask": false
+  },
+  {
+    "input": "脚趾头发黑干瘪了",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "病理自发性破溃"
+  },
+  {
+    "input": "蜈蚣咬了脚趾破皮了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "生物毒素-感染"
+  },
+  {
+    "input": "妈的暖宝宝贴腿上烫了",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "热力损伤"
+  },
+  {
+    "input": "脚崴了没破皮就是肿了个包",
+    "type": "闭合式",
+    "should_ask": false
+  },
+  {
+    "input": "卧床骶尾部皮肤溃烂了快打120",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "病理自发性破溃"
+  },
+  {
+    "input": "后背压疮部位皮破了流黄水嘶",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "病理自发性破溃"
+  },
+  {
+    "input": "手指感染了又红又肿",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "生物毒素-感染"
+  },
+  {
+    "input": "哎哟手碰到变压器了",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "电能损伤"
+  },
+  {
+    "input": "胸口被撞里面疼皮没破",
+    "type": "闭合式",
+    "should_ask": false
+  },
+  {
+    "input": "擦厕所沾了洁厕灵",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "化学腐蚀"
+  },
+  {
+    "input": "放疗后脖子皮溃烂了哎",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "辐射损伤"
+  },
+  {
+    "input": "热水袋烫腿起泡破了流黄水",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "热力损伤"
+  },
+  {
+    "input": "手伸开水里皮烫烂了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "热力损伤"
+  },
+  {
+    "input": "放疗后腰上皮烂了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "辐射损伤"
+  },
+  {
+    "input": "削铅笔时小刀把手指头拉破流血",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "机械性损伤"
+  },
+  {
+    "input": "脚踩翻了的茶壶",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "热力损伤"
+  },
+  {
+    "input": "被电打了手麻了",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "电能损伤"
+  },
+  {
+    "input": "我操哑铃砸小腿淤青了皮完好",
+    "type": "闭合式",
+    "should_ask": false
+  },
+  {
+    "input": "腿摔断了骨头戳出来了在流血",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "机械性损伤"
+  },
+  {
+    "input": "被蜱虫咬了",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "生物毒素-感染"
+  },
+  {
+    "input": "手被传送带卷了一下",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "机械性损伤"
+  },
+  {
+    "input": "变压器打到手指烧出洞了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "电能损伤"
+  },
+  {
+    "input": "我的天脚踝上面皮肤坏死破溃了快来人",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "病理自发性破溃"
+  },
+  {
+    "input": "化学清洗剂把手烧破皮了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "化学腐蚀"
+  },
+  {
+    "input": "我脚后跟压疮烂穿了吧",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "病理自发性破溃"
+  },
+  {
+    "input": "炸东西油溅手了",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "热力损伤"
+  },
+  {
+    "input": "我腿上长了个包越来越大快来人",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "生物毒素-感染"
+  },
+  {
+    "input": "哎哟我脸被火焰燎破了皮",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "热力损伤"
+  },
+  {
+    "input": "蜂蛰了胳膊起了包破了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "生物毒素-感染"
+  },
+  {
+    "input": "手被传送带卷进去撕开了皮肉",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "机械性损伤"
+  },
+  {
+    "input": "脸撞门板肿了",
+    "type": "闭合式",
+    "should_ask": true,
+    "answer": "没有"
+  },
+  {
+    "input": "手碰到电线了",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "电能损伤"
+  },
+  {
+    "input": "手摸热铁皮烧掉了呢",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "热力损伤"
+  },
+  {
+    "input": "我操触电了手心烧了个洞",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "电能损伤"
+  },
+  {
+    "input": "电闸打到手指皮烧烂了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "电能损伤"
+  },
+  {
+    "input": "氨水把脸熏破皮了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "化学腐蚀"
+  },
+  {
+    "input": "手被刀砍了一道口子血止不住",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "机械性损伤"
+  },
+  {
+    "input": "放疗部位皮破了流黄水",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "辐射损伤"
+  },
+  {
+    "input": "我操电棍碰到胳膊皮烧烂了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "电能损伤"
+  },
+  {
+    "input": "脚脖子扭肿了皮没破",
+    "type": "闭合式",
+    "should_ask": false
+  },
+  {
+    "input": "铁皮把脚割破了在流血",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "机械性损伤"
+  },
+  {
+    "input": "被蜘蛛咬了腿",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "生物毒素-感染"
+  },
+  {
+    "input": "糖尿病脚趾溃烂了露骨头了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "病理自发性破溃"
+  },
+  {
+    "input": "放疗后胳膊皮肤破溃了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "辐射损伤"
+  },
+  {
+    "input": "手摸到漏电的机器了",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "电能损伤"
+  },
+  {
+    "input": "被雷劈了肩膀皮烧掉了快来人",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "电能损伤"
+  },
+  {
+    "input": "完了完了踩空崴脚肿了皮没破快来人",
+    "type": "闭合式",
+    "should_ask": false
+  },
+  {
+    "input": "腿被钢筋头挂了一下",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "机械性损伤"
+  },
+  {
+    "input": "被蛇咬了脚肿了",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "生物毒素-感染"
+  },
+  {
+    "input": "水母蛰了腿皮烂了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "生物毒素-感染"
+  },
+  {
+    "input": "被蝎子蛰了手",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "生物毒素-感染"
+  },
+  {
+    "input": "脚踩到电线被电了",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "电能损伤"
+  },
+  {
+    "input": "脖子扭了皮好好的动不了",
+    "type": "闭合式",
+    "should_ask": false
+  },
+  {
+    "input": "卧槽手上沾了点硫酸啊",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "化学腐蚀"
+  },
+  {
+    "input": "蜘蛛咬了腿皮烂了哎",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "生物毒素-感染"
+  },
+  {
+    "input": "要了命了摔了一跤腿弯了皮完好骨头没出来",
+    "type": "闭合式",
+    "should_ask": false
+  },
+  {
+    "input": "毒蜂蛰了脸肿破皮了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "生物毒素-感染"
+  },
+  {
+    "input": "酸雾把脸熏破皮了呀",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "化学腐蚀"
+  },
+  {
+    "input": "脚踩进滚烫的洗澡水",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "热力损伤"
+  },
+  {
+    "input": "蒸锅蒸汽熏了脸",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "热力损伤"
+  },
+  {
+    "input": "放疗后皮肤溃烂了在流水",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "辐射损伤"
+  },
+  {
+    "input": "我手摸热锅皮粘上面撕下来了快打120",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "热力损伤"
+  },
+  {
+    "input": "蛇咬了脚两个牙印在流血",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "生物毒素-感染"
+  },
+  {
+    "input": "手碰排气管皮粘掉了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "热力损伤"
+  },
+  {
+    "input": "老人脚后跟皮肤发硬",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "病理自发性破溃"
+  },
+  {
+    "input": "胳膊被电弧扫了一下",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "电能损伤"
+  },
+  {
+    "input": "肩膀撞门框肿了一块",
+    "type": "闭合式",
+    "should_ask": true,
+    "answer": "没有"
+  },
+  {
+    "input": "放疗后腰上皮肤发红发痒",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "辐射损伤"
+  },
+  {
+    "input": "被猴子咬了手指",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "机械性损伤"
+  },
+  {
+    "input": "漏电铁壳把手烧焦了皮掉了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "电能损伤"
+  },
+  {
+    "input": "被雷劈了一下肩膀快来人",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "电能损伤"
+  },
+  {
+    "input": "脚踩开水里皮烫掉了救命",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "热力损伤"
+  },
+  {
+    "input": "机器夹胳膊淤青了皮没破",
+    "type": "闭合式",
+    "should_ask": false
+  },
+  {
+    "input": "脚踝上面皮肤坏死发黑",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "病理自发性破溃"
+  },
+  {
+    "input": "膝盖跪地磕了鼓包",
+    "type": "闭合式",
+    "should_ask": true,
+    "answer": "没有"
+  },
+  {
+    "input": "头被砸鼓个包皮没破",
+    "type": "闭合式",
+    "should_ask": false
+  },
+  {
+    "input": "我腿被门夹紫了皮没破快来人",
+    "type": "闭合式",
+    "should_ask": false
+  },
+  {
+    "input": "疼死我了氨水味熏了满脸快来人",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "化学腐蚀"
+  },
+  {
+    "input": "操我胸口感里面疼",
+    "type": "闭合式",
+    "should_ask": true,
+    "answer": "没有"
+  },
+  {
+    "input": "闪了腰皮好好的就是里面疼",
+    "type": "闭合式",
+    "should_ask": false
+  },
+  {
+    "input": "妈的氢氟酸溅胳膊上皮都烂了嘶",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "化学腐蚀"
+  },
+  {
+    "input": "洁厕灵把手烧烂了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "化学腐蚀"
+  },
+  {
+    "input": "妈的我手摸了化学清洗剂",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "化学腐蚀"
+  },
+  {
+    "input": "烟头摁到手指了",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "热力损伤"
+  },
+  {
+    "input": "蝎子蛰了手出了毒刺在流血",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "生物毒素-感染"
+  },
+  {
+    "input": "膝盖磕台阶鼓包了皮没破嘶",
+    "type": "闭合式",
+    "should_ask": false
+  },
+  {
+    "input": "烟头烫手指破了皮",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "热力损伤"
+  },
+  {
+    "input": "疼死我了脸被火机燎了一下",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "热力损伤"
+  },
+  {
+    "input": "被紫外线消毒灯照了脸",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "辐射损伤"
+  },
+  {
+    "input": "疼死我了小腿被哑铃砸淤青了",
+    "type": "闭合式",
+    "should_ask": true,
+    "answer": "没有"
+  },
+  {
+    "input": "热油溅到手起泡破了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "热力损伤"
+  },
+  {
+    "input": "碎玻璃把手划破了血哗哗的",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "机械性损伤"
+  },
+  {
+    "input": "蜱虫咬了皮破了个洞",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "生物毒素-感染"
+  },
+  {
+    "input": "插座电了手皮烧破了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "电能损伤"
+  },
+  {
+    "input": "手上起了脓肿",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "生物毒素-感染"
+  },
+  {
+    "input": "胳膊脱臼了皮没破垂着",
+    "type": "闭合式",
+    "should_ask": false
+  },
+  {
+    "input": "脚后跟皮肤干裂发硬",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "病理自发性破溃"
+  },
+  {
+    "input": "长期卧床后背皮肤发黑",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "病理自发性破溃"
+  },
+  {
+    "input": "完了完了脚趾头坏疽烂掉了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "病理自发性破溃"
+  },
+  {
+    "input": "我的妈呀被毒蜂蛰了脸",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "生物毒素-感染"
+  },
+  {
+    "input": "脚底踩空崴了肿救命",
+    "type": "闭合式",
+    "should_ask": true,
+    "answer": "没有"
+  },
+  {
+    "input": "我手腕扭了肿得老高呀",
+    "type": "闭合式",
+    "should_ask": true,
+    "answer": "没有"
+  },
+  {
+    "input": "我的妈呀晒太阳晒到胳膊皮都烂了快来人",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "辐射损伤"
+  },
+  {
+    "input": "我靠电击了胸口皮烧烂了快叫救护车",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "电能损伤"
+  },
+  {
+    "input": "我被蜈蚣咬了脚趾",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "生物毒素-感染"
+  },
+  {
+    "input": "做了放疗胳膊发痒",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "辐射损伤"
+  },
+  {
+    "input": "梯子滑下来闪腰了皮没破",
+    "type": "闭合式",
+    "should_ask": false
+  },
+  {
+    "input": "手腕撑地摔了歪了",
+    "type": "闭合式",
+    "should_ask": true,
+    "answer": "没有"
+  },
+  {
+    "input": "搬重东西把腰抻了弯不下去",
+    "type": "闭合式",
+    "should_ask": true,
+    "answer": "没有"
+  },
+  {
+    "input": "我操脚崴了肿得跟馒头似的",
+    "type": "闭合式",
+    "should_ask": true,
+    "answer": "没有"
+  },
+  {
+    "input": "海蜇蛰了胳膊皮都烂了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "生物毒素-感染"
+  },
+  {
+    "input": "电弧扫了胳膊皮烧破了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "电能损伤"
+  },
+  {
+    "input": "放疗后大腿皮肤变色了",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "辐射损伤"
+  },
+  {
+    "input": "化学试剂把胳膊烧烂了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "化学腐蚀"
+  },
+  {
+    "input": "紫外线消毒灯把脸照破皮了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "辐射损伤"
+  },
+  {
+    "input": "放疗后肩膀皮肤起皮了",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "辐射损伤"
+  },
+  {
+    "input": "化学药水把手指烧穿了",
+    "type": "开放式",
+    "should_ask": false,
+    "group": "化学腐蚀"
+  },
+  {
+    "input": "放疗后皮肤发红脱皮",
+    "type": "开放式",
+    "should_ask": true,
+    "answer": "有",
+    "group": "辐射损伤"
+  }
+]

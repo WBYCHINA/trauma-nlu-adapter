@@ -1,0 +1,269 @@
+danger:
+  name: danger
+  description: 评估现场安全
+  prompt: "请先确认现场安全！是否有危险？比如车辆、漏电、火灾等？"
+  next_states:
+    safe: response
+    unsafe: danger_unsafe
+    yes: danger_unsafe
+    有危险: danger_unsafe
+    不安全: danger_unsafe
+    安全: response
+    没有危险: response
+  is_final: false
+
+danger_unsafe:
+  name: danger_unsafe
+  description: 现场不安全，指导撤离
+  prompt: "现场不安全！请立即撤离到安全区域，不要靠近伤员，等待专业人员到达。"
+  next_states:
+    我撤了: danger
+    安全了: response
+    知道了: danger
+  is_final: false
+
+response:
+  name: response
+  description: 评估伤员意识
+  prompt: "现在请走到伤员身边，轻轻拍打他的肩膀，大声喊'你怎么了'，观察他是否有反应。"
+  next_states:
+    有反应: call_120
+    能说话: call_120
+    醒了: call_120
+    没反应: call_120_unresponsive
+    没醒: call_120_unresponsive
+    不说话: call_120_unresponsive
+    不知道: call_120_unresponsive
+  is_final: false
+
+call_120:
+  name: call_120
+  description: 指导拨打120
+  prompt: "请立即拨打120急救电话，开启免提，告诉接线员：这里有人受伤，说明具体位置和伤情。"
+  next_states:
+    打了: airway
+    正在打: airway
+    打完了: airway
+    已经打了: airway
+  is_final: false
+
+call_120_unresponsive:
+  name: call_120_unresponsive
+  description: 无反应时拨打120并开始评估
+  prompt: "伤员没有反应！请立即拨打120急救电话，开启免提。同时我来指导你进行急救。"
+  next_states:
+    打了: airway
+    正在打: airway
+    打完了: airway
+  is_final: false
+
+airway:
+  name: airway
+  description: 开放气道
+  prompt: "请把伤员平放在硬地上，一只手按住他的额头，另一只手抬起他的下巴，让头后仰，打开气道。"
+  next_states:
+    好了: breathing
+    打开了: breathing
+    可以了: breathing
+    不知道怎么弄: airway_demo
+  is_final: false
+
+airway_demo:
+  name: airway_demo
+  description: 气道开放演示
+  prompt: "请将伤员平躺，用你的一只手掌根压住他的额头，另一只手的食指和中指抬起他的下巴，使头部后仰30-45度，这样就能打开气道。"
+  next_states:
+    好了: breathing
+    明白了: breathing
+  is_final: false
+
+breathing:
+  name: breathing
+  description: 检查呼吸
+  prompt: "现在请贴近伤员的口鼻，观察胸部是否有起伏，听是否有呼吸声，数5到10秒。"
+  next_states:
+    有呼吸: circulation
+    在呼吸: circulation
+    胸部在动: circulation
+    没呼吸: cpr
+    不喘气: cpr
+    不动: cpr
+  is_final: false
+
+circulation:
+  name: circulation
+  description: 检查循环和出血
+  prompt: "请检查伤员身体，特别是头部、四肢，看看有没有明显的大出血。"
+  next_states:
+    有出血: assess_bleeding
+    流血了: assess_bleeding
+    大出血: assess_bleeding
+    没有出血: monitor
+    没流血: monitor
+    不知道: assess_bleeding
+  is_final: false
+
+assess_bleeding:
+  name: assess_bleeding
+  description: 评估出血情况
+  prompt: "请描述一下出血的位置和情况，比如是哪个部位出血，血流得快不快？"
+  next_states:
+    喷血: bleeding_severe
+    喷射: bleeding_severe
+    流得快: bleeding_moderate
+    一直流: bleeding_moderate
+    一点点: bleeding_mild
+    小口: bleeding_mild
+    手上: bleeding_hand
+    腿上: bleeding_leg
+    头上: bleeding_head
+  is_final: false
+
+bleeding_severe:
+  name: bleeding_severe
+  description: 重度出血处理
+  prompt: "这是重度出血！请立即用干净的布料直接用力按压伤口，如果是四肢出血且按压无效，立即在伤口近心端使用止血带，并记录上带时间！"
+  next_states:
+    按了: bleeding_monitor
+    用止血带了: bleeding_monitor
+    好了: monitor
+  is_final: false
+
+bleeding_moderate:
+  name: bleeding_moderate
+  description: 中度出血处理
+  prompt: "请用多层纱布或毛巾直接按压伤口，持续按压直到出血停止。如果按压后仍出血，考虑使用止血带。"
+  next_states:
+    按了: bleeding_monitor
+    好了: monitor
+  is_final: false
+
+bleeding_mild:
+  name: bleeding_mild
+  description: 轻度出血处理
+  prompt: "请用清水冲洗伤口，然后用干净纱布或创可贴按压止血，抬高患肢超过心脏水平。"
+  next_states:
+    好了: monitor
+    处理了: monitor
+  is_final: false
+
+bleeding_hand:
+  name: bleeding_hand
+  description: 手部出血处理
+  prompt: "手部出血，请用清水冲洗后直接按压止血，抬高手部超过心脏。如果出血较多，考虑使用止血带。"
+  next_states:
+    好了: monitor
+    按了: bleeding_monitor
+  is_final: false
+
+bleeding_leg:
+  name: bleeding_leg
+  description: 腿部出血处理
+  prompt: "腿部出血，请用多层纱布按压伤口。如果是大腿部位且出血严重，在大腿根部使用止血带。"
+  next_states:
+    按了: bleeding_monitor
+    用止血带了: bleeding_monitor
+  is_final: false
+
+bleeding_head:
+  name: bleeding_head
+  description: 头部出血处理
+  prompt: "头部出血，请用干净布料轻轻按压止血，不要用力过猛。让伤员平躺，头部垫高，观察意识状态。"
+  next_states:
+    按了: bleeding_monitor
+    好了: monitor
+  is_final: false
+
+bleeding_monitor:
+  name: bleeding_monitor
+  description: 出血后监护
+  prompt: "请持续按压伤口，保持伤员平躺，等待急救人员到达。每5分钟检查一次出血情况。"
+  next_states:
+    好了: monitor
+    还在流: bleeding_severe
+  is_final: false
+
+cpr:
+  name: cpr
+  description: 心肺复苏
+  prompt: "立即开始心肺复苏！双手重叠放在两乳头连线中点，用力快速按压，深度5-6厘米，频率每分钟100-120次。跟我数：1、2、3、4..."
+  next_states:
+    开始了: cpr_continue
+    在做: cpr_continue
+    不知道: cpr_demo
+  is_final: false
+
+cpr_demo:
+  name: cpr_demo
+  description: CPR演示指导
+  prompt: "请找到两乳头连线的中点，将你的手掌根放在这个位置，另一只手重叠在上面，手臂伸直，用身体重量向下按压，每次按压后放松，让胸部完全回弹。"
+  next_states:
+    开始了: cpr_continue
+    明白了: cpr_continue
+  is_final: false
+
+cpr_continue:
+  name: cpr_continue
+  description: 持续CPR
+  prompt: "继续按压！保持每分钟100-120次的频率，深度5-6厘米。如果有AED设备，请立即使用。不要停止按压，直到急救人员到达。"
+  next_states:
+    恢复呼吸: breathing_check
+    他动了: breathing_check
+    来了: end
+  is_final: false
+
+breathing_check:
+  name: breathing_check
+  description: 检查恢复呼吸
+  prompt: "请立即检查伤员是否恢复自主呼吸，观察胸部是否有起伏。"
+  next_states:
+    有呼吸: monitor
+    在呼吸: monitor
+    没有: cpr
+  is_final: false
+
+monitor:
+  name: monitor
+  description: 监护等待
+  prompt: "请保持伤员平躺，保持呼吸道通畅，持续观察呼吸和意识状态，等待急救人员到达。"
+  next_states:
+    急救车来了: end
+    他情况变了: assess_change
+    没呼吸了: cpr
+  is_final: false
+
+assess_change:
+  name: assess_change
+  description: 评估伤情变化
+  prompt: "请描述一下伤员发生了什么变化？"
+  next_states:
+    呼吸困难: breathing_difficulty
+    昏迷了: cpr
+    大出血: bleeding_severe
+    抽搐: seizure
+  is_final: false
+
+breathing_difficulty:
+  name: breathing_difficulty
+  description: 呼吸困难处理
+  prompt: "呼吸困难！请让伤员半卧位，保持呼吸道通畅，解开衣领，不要移动伤员。"
+  next_states:
+    好了: monitor
+    没呼吸了: cpr
+  is_final: false
+
+seizure:
+  name: seizure
+  description: 抽搐处理
+  prompt: "伤员正在抽搐！请让他平躺，移开周围危险物品，不要强行按住他，不要往嘴里塞东西，保持呼吸道通畅。"
+  next_states:
+    停止了: monitor
+    没呼吸了: cpr
+  is_final: false
+
+end:
+  name: end
+  description: 急救结束
+  prompt: "急救人员已经到达，请配合他们进行交接。感谢你参与急救！"
+  next_states: {}
+  is_final: true

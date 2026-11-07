@@ -1,0 +1,82 @@
+{
+  "dataset": "D:\\Trae CN\\Trae Project\\First AID Agent\\data/heldout/heldout_demo.json",
+  "n_total": 5,
+  "n_should_ask": 2,
+  "Step1": {
+    "n": 5,
+    "accuracy_before_followup": 0.6,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "ask_trigger_rate": 1.0,
+    "followup_correction_rate": 1.0,
+    "per_class": {
+      "开放式": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      },
+      "闭合式": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 2
+      }
+    }
+  },
+  "Step2a": {
+    "n": 3,
+    "accuracy": 1.0,
+    "macro_f1": 0.2857,
+    "per_class": {
+      "机械性损伤": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 2
+      },
+      "热力损伤": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1
+      },
+      "电能损伤": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0
+      },
+      "化学腐蚀": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0
+      },
+      "辐射损伤": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0
+      },
+      "生物毒素-感染": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0
+      },
+      "病理自发性破溃": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0
+      }
+    }
+  },
+  "Step2b": {
+    "n": 0,
+    "accuracy": null,
+    "macro_f1": null,
+    "per_class": {}
+  }
+}

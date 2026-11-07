@@ -1,0 +1,41 @@
+{
+  "dataset": "d:\\Trae CN\\Trae Project\\First AID Agent\\data\\step1_nlu\\location\\heldout_location.json",
+  "n": 80,
+  "accuracy": 1.0,
+  "per_class": {
+    "头部": {
+      "correct": 10,
+      "total": 10
+    },
+    "颈部": {
+      "correct": 10,
+      "total": 10
+    },
+    "躯干": {
+      "correct": 10,
+      "total": 10
+    },
+    "手臂": {
+      "correct": 10,
+      "total": 10
+    },
+    "手部": {
+      "correct": 10,
+      "total": 10
+    },
+    "腿部": {
+      "correct": 10,
+      "total": 10
+    },
+    "足部": {
+      "correct": 10,
+      "total": 10
+    },
+    "多部位": {
+      "correct": 10,
+      "total": 10
+    }
+  },
+  "confusion_pairs": {},
+  "details": "d:\\Trae CN\\Trae Project\\First AID Agent\\data\\heldout\\details_location_20261008_204000.jsonl"
+}

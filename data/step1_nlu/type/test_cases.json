@@ -1,0 +1,363 @@
+[
+  {
+    "category": "对比对",
+    "input": "锁骨断了",
+    "expected": "闭合式"
+  },
+  {
+    "category": "对比对",
+    "input": "锁骨断了骨头戳破皮了",
+    "expected": "开放式,闭合式"
+  },
+  {
+    "category": "对比对",
+    "input": "烫伤发红没起泡",
+    "expected": "其他"
+  },
+  {
+    "category": "对比对",
+    "input": "烫伤起泡破皮了",
+    "expected": "开放式"
+  },
+  {
+    "category": "对比对",
+    "input": "被砸了一下",
+    "expected": "闭合式"
+  },
+  {
+    "category": "对比对",
+    "input": "被砸破了流血",
+    "expected": "开放式,闭合式"
+  },
+  {
+    "category": "对比对",
+    "input": "被蛇咬了一口",
+    "expected": "其他"
+  },
+  {
+    "category": "对比对",
+    "input": "被蛇咬破皮流血了",
+    "expected": "开放式"
+  },
+  {
+    "category": "对比对",
+    "input": "摔了一跤",
+    "expected": "闭合式"
+  },
+  {
+    "category": "对比对",
+    "input": "摔破皮了流血",
+    "expected": "开放式"
+  },
+  {
+    "category": "对比对",
+    "input": "撞了一下",
+    "expected": "闭合式"
+  },
+  {
+    "category": "对比对",
+    "input": "撞破了流血",
+    "expected": "开放式,闭合式"
+  },
+  {
+    "category": "对比对",
+    "input": "内出血",
+    "expected": "闭合式"
+  },
+  {
+    "category": "对比对",
+    "input": "外出血",
+    "expected": "开放式"
+  },
+  {
+    "category": "对比对",
+    "input": "腿上出血",
+    "expected": "开放式"
+  },
+  {
+    "category": "对比对",
+    "input": "腿上内出血皮下淤血",
+    "expected": "闭合式"
+  },
+
+  {
+    "category": "同义换词-开放式",
+    "input": "胳膊上有个口子",
+    "expected": "开放式"
+  },
+  {
+    "category": "同义换词-开放式",
+    "input": "皮肉翻开了",
+    "expected": "开放式"
+  },
+  {
+    "category": "同义换词-开放式",
+    "input": "手指截掉了",
+    "expected": "开放式"
+  },
+  {
+    "category": "同义换词-开放式",
+    "input": "手被绞进机器里扯断了",
+    "expected": "开放式"
+  },
+  {
+    "category": "同义换词-开放式",
+    "input": "手腕被切断了",
+    "expected": "开放式"
+  },
+  {
+    "category": "同义换词-开放式",
+    "input": "血流了一地",
+    "expected": "开放式"
+  },
+  {
+    "category": "同义换词-开放式",
+    "input": "戳了个洞",
+    "expected": "开放式"
+  },
+  {
+    "category": "同义换词-开放式",
+    "input": "皮开肉绽",
+    "expected": "开放式"
+  },
+  {
+    "category": "同义换词-开放式",
+    "input": "背上被戳穿了",
+    "expected": "开放式"
+  },
+  {
+    "category": "同义换词-开放式",
+    "input": "耳朵撕下来一半",
+    "expected": "开放式"
+  },
+
+  {
+    "category": "同义换词-闭合式",
+    "input": "腿上青了一大块",
+    "expected": "闭合式"
+  },
+  {
+    "category": "同义换词-闭合式",
+    "input": "胳膊肿得老粗",
+    "expected": "闭合式"
+  },
+  {
+    "category": "同义换词-闭合式",
+    "input": "骨头裂了缝",
+    "expected": "闭合式"
+  },
+  {
+    "category": "同义换词-闭合式",
+    "input": "脚踝崴了一下",
+    "expected": "闭合式"
+  },
+  {
+    "category": "同义换词-闭合式",
+    "input": "肩膀脱出来了",
+    "expected": "闭合式"
+  },
+  {
+    "category": "同义换词-闭合式",
+    "input": "腰闪了",
+    "expected": "闭合式"
+  },
+  {
+    "category": "同义换词-闭合式",
+    "input": "被撞得淤血了",
+    "expected": "闭合式"
+  },
+  {
+    "category": "同义换词-闭合式",
+    "input": "头撞了个包",
+    "expected": "闭合式"
+  },
+  {
+    "category": "同义换词-闭合式",
+    "input": "伸不直弯不了",
+    "expected": "闭合式"
+  },
+  {
+    "category": "同义换词-闭合式",
+    "input": "皮下渗血皮肤没破",
+    "expected": "闭合式"
+  },
+
+  {
+    "category": "同义换词-其他",
+    "input": "电了一下昏过去了",
+    "expected": "其他"
+  },
+  {
+    "category": "同义换词-其他",
+    "input": "泡水里喘不上气",
+    "expected": "其他"
+  },
+  {
+    "category": "同义换词-其他",
+    "input": "热得快晕了",
+    "expected": "其他"
+  },
+  {
+    "category": "同义换词-其他",
+    "input": "吃了半瓶药",
+    "expected": "其他"
+  },
+  {
+    "category": "同义换词-其他",
+    "input": "煤气呛得直咳嗽",
+    "expected": "其他"
+  },
+  {
+    "category": "同义换词-其他",
+    "input": "冻得失去知觉了",
+    "expected": "其他"
+  },
+  {
+    "category": "同义换词-其他",
+    "input": "被太阳晒晕了",
+    "expected": "其他"
+  },
+  {
+    "category": "同义换词-其他",
+    "input": "起了一身疹子喘不过气",
+    "expected": "其他"
+  },
+  {
+    "category": "同义换词-其他",
+    "input": "胸口突然疼得厉害",
+    "expected": "其他"
+  },
+  {
+    "category": "同义换词-其他",
+    "input": "手烫得发红没起泡",
+    "expected": "其他"
+  },
+
+  {
+    "category": "模糊输入",
+    "input": "在流血",
+    "expected": "开放式"
+  },
+  {
+    "category": "模糊输入",
+    "input": "动不了了",
+    "expected": "闭合式"
+  },
+  {
+    "category": "模糊输入",
+    "input": "好疼啊",
+    "expected": "闭合式"
+  },
+  {
+    "category": "模糊输入",
+    "input": "起个包",
+    "expected": "闭合式"
+  },
+  {
+    "category": "模糊输入",
+    "input": "晕过去了",
+    "expected": "其他"
+  },
+  {
+    "category": "模糊输入",
+    "input": "是不是骨折了",
+    "expected": "闭合式"
+  },
+  {
+    "category": "模糊输入",
+    "input": "血止不住",
+    "expected": "开放式"
+  },
+  {
+    "category": "模糊输入",
+    "input": "喘不上气",
+    "expected": "其他"
+  },
+  {
+    "category": "模糊输入",
+    "input": "从楼梯上滚下来了",
+    "expected": "闭合式"
+  },
+  {
+    "category": "模糊输入",
+    "input": "被车撞了",
+    "expected": "开放式,闭合式"
+  },
+
+  {
+    "category": "多伤情组合",
+    "input": "被车撞了腿骨折还流血",
+    "expected": "开放式,闭合式"
+  },
+  {
+    "category": "多伤情组合",
+    "input": "中毒又摔了一跤",
+    "expected": "闭合式,其他"
+  },
+  {
+    "category": "多伤情组合",
+    "input": "溺水又撞到了头",
+    "expected": "闭合式,其他"
+  },
+  {
+    "category": "多伤情组合",
+    "input": "断肢又烧伤了",
+    "expected": "开放式"
+  },
+  {
+    "category": "多伤情组合",
+    "input": "爆炸伤又出血又骨折又晕了",
+    "expected": "开放式,闭合式,其他"
+  },
+
+  {
+    "category": "真实场景-厨房",
+    "input": "切菜切到手了流血",
+    "expected": "开放式"
+  },
+  {
+    "category": "真实场景-厨房",
+    "input": "炒菜油溅到手上没起泡",
+    "expected": "其他"
+  },
+  {
+    "category": "真实场景-厨房",
+    "input": "炒菜油溅到手上起泡了",
+    "expected": "开放式"
+  },
+  {
+    "category": "真实场景-工地",
+    "input": "被钉子扎穿了脚",
+    "expected": "开放式"
+  },
+  {
+    "category": "真实场景-工地",
+    "input": "被砖头砸了肩膀",
+    "expected": "闭合式"
+  },
+  {
+    "category": "真实场景-运动",
+    "input": "打篮球脚踝崴了",
+    "expected": "闭合式"
+  },
+  {
+    "category": "真实场景-运动",
+    "input": "跑步摔了膝盖破了",
+    "expected": "开放式"
+  },
+  {
+    "category": "真实场景-交通事故",
+    "input": "被电动车蹭了擦破点皮",
+    "expected": "开放式"
+  },
+  {
+    "category": "真实场景-交通事故",
+    "input": "撞车了肋骨断了",
+    "expected": "闭合式"
+  },
+  {
+    "category": "真实场景-家庭",
+    "input": "暖壶爆炸烫到腿了",
+    "expected": "开放式"
+  }
+]

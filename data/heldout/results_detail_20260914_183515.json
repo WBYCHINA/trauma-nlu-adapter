@@ -1,0 +1,78 @@
+{
+  "dataset": "D:\\Trae CN\\Trae Project\\First AID Agent\\data/heldout/heldout_detail_mechanical.json",
+  "mode": "step2b_only",
+  "n": 65,
+  "Step2b": {
+    "n": 65,
+    "accuracy": 0.9077,
+    "macro_f1": 0.9137,
+    "per_class": {
+      "切割伤": {
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1": 0.8889,
+        "support": 15
+      },
+      "刺伤": {
+        "precision": 0.8333,
+        "recall": 1.0,
+        "f1": 0.9091,
+        "support": 5
+      },
+      "挫裂伤": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 5
+      },
+      "撕裂伤": {
+        "precision": 0.6667,
+        "recall": 0.8,
+        "f1": 0.7273,
+        "support": 5
+      },
+      "撕脱伤": {
+        "precision": 0.6667,
+        "recall": 0.8,
+        "f1": 0.7273,
+        "support": 5
+      },
+      "开放性骨折": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 5
+      },
+      "爆炸碎片伤": {
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1": 0.8889,
+        "support": 5
+      },
+      "火器伤": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 5
+      },
+      "挤压破裂": {
+        "precision": 0.8333,
+        "recall": 1.0,
+        "f1": 0.9091,
+        "support": 5
+      },
+      "抓咬伤": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 5
+      },
+      "擦伤": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 5
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+﻿载入留出集 270 条：D:\Trae CN\Trae Project\First AID Agent\data/heldout/heldout.json
+
+D:\python\python.exe : 
+At line:15 char:3155
++ ... NG="utf-8"; D:\python\python.exe src\train\eval_heldout.py --dataset  ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/338 [00:00<02:11,  2.57it/s]
+Loading weights:  29%|██▉       | 99/338 [00:00<00:01, 232.42it/s]
+Loading weights:  41%|████      | 138/338 [00:00<00:00, 237.51it/s]
+Loading weights:  50%|█████     | 170/338 [00:00<00:00, 240.28it/s]
+Loading weights:  59%|█████▉    | 200/338 [00:00<00:00, 238.97it/s]
+Loading weights:  67%|██████▋   | 228/338 [00:01<00:00, 237.86it/s]
+Loading weights:  75%|███████▌  | 254/338 [00:01<00:00, 220.34it/s]
+Loading weights:  82%|████████▏ | 278/338 [00:01<00:00, 221.62it/s]
+Loading weights:  89%|████████▉ | 302/338 [00:01<00:00, 226.11it/s]
+Loading weights:  97%|█████████▋| 327/338 [00:01<00:00, 211.51it/s]
+Loading weights: 100%|██████████| 338/338 [00:01<00:00, 216.30it/s]
+✓ NLU 清洗（纯 base，无 adapter）
+
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]
+Loading weights:  19%|█▊        | 63/338 [00:00<00:00, 594.41it/s]
+Loading weights:  39%|███▉      | 131/338 [00:00<00:00, 639.71it/s]
+Loading weights:  58%|█████▊    | 196/338 [00:00<00:00, 520.75it/s]
+Loading weights:  86%|████████▌ | 291/338 [00:00<00:00, 666.37it/s]
+Loading weights: 100%|██████████| 338/338 [00:00<00:00, 635.60it/s]
+Traceback (most recent call last):
+  File "D:\Trae CN\Trae Project\First AID Agent\src\train\eval_heldout.py", line 271, in <module>
+    main()
+  File "D:\Trae CN\Trae Project\First AID Agent\src\train\eval_heldout.py", line 267, in main
+    evaluate(path)
+  File "D:\Trae CN\Trae Project\First AID Agent\src\train\eval_heldout.py", line 67, in evaluate
+    nlu_model, lora_model, tokenizer = P.load_pipeline()
+                                       ^^^^^^^^^^^^^^^^^
+  File "D:\Trae CN\Trae Project\First AID Agent\src\train\pipeline.py", line 125, in load_pipeline
+    ).to(device)
+      ^^^^^^^^^^
+  File "D:\python\Lib\site-packages\transformers\modeling_utils.py", line 3849, in to
+    return super().to(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\Lib\site-packages\torch\nn\modules\module.py", line 1383, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\Lib\site-packages\torch\nn\modules\module.py", line 933, in _apply
+    module._apply(fn)
+  File "D:\python\Lib\site-packages\torch\nn\modules\module.py", line 933, in _apply
+    module._apply(fn)
+  File "D:\python\Lib\site-packages\torch\nn\modules\module.py", line 933, in _apply
+    module._apply(fn)
+  [Previous line repeated 2 more times]
+  File "D:\python\Lib\site-packages\torch\nn\modules\module.py", line 964, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "D:\python\Lib\site-packages\torch\nn\modules\module.py", line 1369, in convert
+    return t.to(
+           ^^^^^
+torch.AcceleratorError: CUDA error: unknown error
+Search for `cudaErrorUnknown' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more infor
+mation.
+For more detailed error information, run with CUDA_LOG_FILE=stderr
+

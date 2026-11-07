@@ -1,0 +1,143 @@
+﻿载入留出集 270 条：d:\Trae CN\Trae Project\First AID Agent\data\heldout\heldout.json
+
+D:\python\python.exe : 
+At line:15 char:3078
++ ... ONUTF8='1'; D:\python\python.exe "d:\Trae CN\Trae Project\First AID A ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]
+Loading weights:  25%|██▌       | 85/338 [00:00<00:00, 834.53it/s]
+Loading weights:  57%|█████▋    | 193/338 [00:00<00:00, 954.56it/s]
+Loading weights:  86%|████████▌ | 291/338 [00:00<00:00, 947.09it/s]
+Loading weights: 100%|██████████| 338/338 [00:00<00:00, 929.82it/s]
+✓ NLU 清洗（纯 base，无 adapter）
+
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]
+Loading weights:  33%|███▎      | 112/338 [00:00<00:00, 1119.01it/s]
+Loading weights:  67%|██████▋   | 227/338 [00:00<00:00, 1123.05it/s]
+Loading weights: 100%|██████████| 338/338 [00:00<00:00, 1141.17it/s]
+bitsandbytes library load error: Configured CUDA binary not found at D:\python\Lib\site-packages\bitsandbytes\libbitsan
+dbytes_cuda132.dll
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\bitsandbytes\cextension.py", line 320, in <module>
+    lib = get_native_library()
+          ^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\Lib\site-packages\bitsandbytes\cextension.py", line 288, in get_native_library
+    raise RuntimeError(f"Configured {BNB_BACKEND} binary not found at {cuda_binary_path}")
+RuntimeError: Configured CUDA binary not found at D:\python\Lib\site-packages\bitsandbytes\libbitsandbytes_cuda132.dll
+W1008 21:00:02.822000 41024 site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work
+ for triton kernels
+✓ Step2b adapter → d:\Trae CN\Trae Project\First AID Agent\models\step2_open_mechanical_detail_lora
+✓ Step1 adapter → d:\Trae CN\Trae Project\First AID Agent\models\step1_type_lora
+✓ Step2a adapter → d:\Trae CN\Trae Project\First AID Agent\models\step2_open_group_lora
+✓ GPU: NVIDIA GeForce RTX 5060 Laptop GPU
+  已评测 20/270
+  已评测 40/270
+  已评测 60/270
+  已评测 80/270
+  已评测 100/270
+  已评测 120/270
+  已评测 140/270
+  已评测 160/270
+  已评测 180/270
+  已评测 200/270
+  已评测 220/270
+  已评测 240/270
+  已评测 260/270
+
+========================================================================
+表 6-2 留出集评测结果
+------------------------------------------------------------------------
+级别      样本数     准确率       macro-F1    追问触发率       追问后纠正率    
+------------------------------------------------------------------------
+Step1     270       78.5%       0.757         43.0%         80.8%     
+Step2a    210       94.8%       0.9477        —             —         
+Step2b    0         —           —             —             —         
+------------------------------------------------------------------------
+参考：Step1 追问前准确率 64.4%（追问闭环后 78.5%）
+
+Step2a 各类 F1：机械性损伤 0.91(n=30)  热力损伤 0.89(n=30)  电能损伤 0.98(n=30)  化学腐蚀 0.98(n=30)  辐射损伤 0.98(n=30)  生物毒素-感染 0.93(n=30)  病理自发性破溃 0.95(n=30)
+
+⚠ 应追问但未触发（77 条）：
+   - 脚背被石块砸肿了
+   - 在太阳下暴晒了腿发红
+   - 火苗燎了胳膊
+   - 被棒球棍砸头起了个包
+   - 糖尿病脚趾头变色了
+   - 膝盖撞台阶鼓了个包
+   - 被锤子砸手指肿得发黑
+   - 放疗部位发热发红
+   - 哎哟后背压疮部位发热发红快打120
+   - 卧槽我脚脖子扭肿了
+   - 晒了半天太阳脸通红快叫救护车
+   - 脚踝崴了一碰就疼
+   - 我的妈呀手被冲床夹了一下
+   - 熨斗蹭了胳膊一下
+   - 我放疗部位皮肤发黑了哎哟
+   - 大腿后面拉伤了迈不开腿
+   - 肩膀掉下来了胳膊耷拉着
+   - 车间酸雾熏了脸
+   - 手伸进煮面的锅里了
+   - 疼死我了被水母蛰了腿快叫救护车
+   - 被电棍碰了一下胳膊
+   - 我靠手指碰到电闸了呢
+   - 胳膊被机器夹了淤青
+   - 我靠脸被猫抓了一下
+   - 糖尿病脚趾头越来越黑
+   - 被电焊弧光闪了脸
+   - 糖尿病脚掌皮肤发黑变硬
+   - 生石灰撒腿上了
+   - 放疗后背上的皮发红
+   - 碱液溅到小腿了
+   - 屁股上压出红斑了
+   - 胳膊被铁管打了淤青
+   - 腿被砖头砸了青了一大片
+   - 哎哟脚底老茧下面发黑
+   - 从楼梯滚下来腿弯了
+   - 放疗后脖子皮肤红了
+   - 脚被铁皮划了一下
+   - 踩到玻璃碴子了
+   - 糖尿病脚趾发黑了
+   - 脚趾踢石头肿了
+   - 脖子扭了动不了
+   - 手指被抽屉夹了肿得厉害
+   - 放疗后胸口红了一片
+   - 老天爷被海胆扎了脚
+   - 卧槽脚上长了个脓包
+   - 脚趾头发黑干瘪了
+   - 手指感染了又红又肿
+   - 削铅笔时小刀把手指头拉破流血
+   - 被电打了手麻了
+   - 手被传送带卷了一下
+   - 炸东西油溅手了
+   - 脸撞门板肿了
+   - 手摸到漏电的机器了
+   - 腿被钢筋头挂了一下
+   - 蒸锅蒸汽熏了脸
+   - 老人脚后跟皮肤发硬
+   - 胳膊被电弧扫了一下
+   - 肩膀撞门框肿了一块
+   - 放疗后腰上皮肤发红发痒
+   - 脚踝上面皮肤坏死发黑
+   - 膝盖跪地磕了鼓包
+   - 操我胸口感里面疼
+   - 烟头摁到手指了
+   - 疼死我了脸被火机燎了一下
+   - 被紫外线消毒灯照了脸
+   - 疼死我了小腿被哑铃砸淤青了
+   - 手上起了脓肿
+   - 脚后跟皮肤干裂发硬
+   - 长期卧床后背皮肤发黑
+   - 脚底踩空崴了肿救命
+   - 我手腕扭了肿得老高呀
+   - 做了放疗胳膊发痒
+   - 搬重东西把腰抻了弯不下去
+   - 我操脚崴了肿得跟馒头似的
+   - 放疗后大腿皮肤变色了
+   - 放疗后肩膀皮肤起皮了
+   - 放疗后皮肤发红脱皮
+
+汇总：d:\Trae CN\Trae Project\First AID Agent\data\heldout\results_20261008_210221.json
+明细：d:\Trae CN\Trae Project\First AID Agent\data\heldout\details_20261008_210221.jsonl
