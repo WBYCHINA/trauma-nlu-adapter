@@ -1,0 +1,1 @@
+# trauma-nlu-adapter
